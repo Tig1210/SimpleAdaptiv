@@ -1,0 +1,146 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  height: 0;
+}
+
+li {
+  list-style-type: none
+}
+
+a {
+  color: white;
+
+}
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://media.blacktiedigital.com/wp-content/uploads/2018/07/12085922/ResponsiveWebDesign.jpg");
+  background-size: cover;
+  background-position: 20% 90%;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.header-info {
+  text-align: center;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header h1 {
+  position: relative;
+  color: white;
+}
+
+.header-nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.about {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+  padding: 10px;
+  width: 80%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50px 50px;
+  color: black;
+  box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.technology {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cardList {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-top: 10px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 20px 50px 20px 50px;
+}
+.card h4 {
+  height: 55px;
+  margin: 0;
+}
+
+.footer {
+  margin-top: 100px;
+  width: 100%;
+  max-width: 1440px;
+  background-color: gray;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-info h5 {
+  margin: 0;
+  font-size: 50px;
+}
+.footer-info p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+@media (max-width: 768px) {
+  body {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header-nav {
+    display: block;
+  }
+}
+@media (max-width: 320px) {
+  body {
+    max-width: 320px;
+  }
+  .header-nav {
+    display: block;
+  }
+
+  .main {
+    width: 100%;
+  }
+}
