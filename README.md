@@ -1,5 +1,5 @@
 # SimpleAdaptiv
-## link:  https://tig1210.github.io/RockandPaper/
+## link:  https://tig1210.github.io/SimpleAdaptiv/
 ## Просто адаптивный лендинг
 ### Разработан на основе:
 - Html
